@@ -1,7 +1,8 @@
 # GLEET
  
 An pytorch implementation for GLEET.
-
+Paper 498 in IJCAI2023
+"Leveraging Exploration and Exploitation in Population-Based Optimization via Deep Reinforcement Learning"
 ### Requirement
 ```
 pip install -r requirements.txt
