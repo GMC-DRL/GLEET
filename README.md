@@ -1,14 +1,13 @@
 # GLEET
  
-An pytorch implementation for GLEET.
-Paper 498 in IJCAI2023
-"Leveraging Exploration and Exploitation in Population-Based Optimization via Deep Reinforcement Learning"
+An python implementation for GLEET, [Auto-configuring Exploration-Exploitation Tradeoff in Evolutionary Computation via Deep Reinforcement Learning](https://dl.acm.org/doi/10.1145/3638529.3653996).
+
 ### Requirement
 ```
 pip install -r requirements.txt
 ```
 
-### How to run GLEET?
+### Running
 
 * **To train GLEET**
 ```
@@ -36,3 +35,15 @@ An example can be:
 python run.py --test --problem=1 --dim=10 --backbone=DMSPSO --load_path=outputs/func1_10.pt
 ```
 which means we firstly load a pre_trained model from load_path and use it to control DMSPSO in 10 dimensional 1st problem (Bent cigar to be specific).
+
+### Citation
+Please cite us if you find this codebase useful for you.
+```
+@inproceedings{ma2024auto,
+  title={Auto-configuring exploration-exploitation tradeoff in evolutionary computation via deep reinforcement learning},
+  author={Ma, Zeyuan and Chen, Jiacheng and Guo, Hongshu and Ma, Yining and Gong, Yue-Jiao},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={1497--1505},
+  year={2024}
+}
+```
