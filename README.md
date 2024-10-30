@@ -1,6 +1,6 @@
 # GLEET
  
-An python implementation for GLEET, [Auto-configuring Exploration-Exploitation Tradeoff in Evolutionary Computation via Deep Reinforcement Learning](https://dl.acm.org/doi/10.1145/3638529.3653996).
+An python implementation for GLEET: "Auto-configuring Exploration-Exploitation Tradeoff in Evolutionary Computation via Deep Reinforcement Learning", which is accepted by GECCO 2024.
 
 ### Requirement
 ```
@@ -36,9 +36,13 @@ python run.py --test --problem=1 --dim=10 --backbone=DMSPSO --load_path=outputs/
 ```
 which means we firstly load a pre_trained model from load_path and use it to control DMSPSO in 10 dimensional 1st problem (Bent cigar to be specific).
 
-### Citation
-Please cite us if you find this codebase useful for you.
-```
+
+## Citing GLEET
+
+The PDF version of the paper is available [here](https://arxiv.org/pdf/2404.08239). If you find our GLEET useful, please cite it in your publications or projects.
+
+```latex
+>>>>>>> 2634fd9d1074c4a72ecbd41c943ca55e2e18331e
 @inproceedings{ma2024auto,
   title={Auto-configuring exploration-exploitation tradeoff in evolutionary computation via deep reinforcement learning},
   author={Ma, Zeyuan and Chen, Jiacheng and Guo, Hongshu and Ma, Yining and Gong, Yue-Jiao},
